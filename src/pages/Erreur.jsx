@@ -8,10 +8,16 @@ const about='À propos'
 const retour='Retourner sur la page daccueil'
 return (
     <div className="diverreur">
+        <div className="headerreur">
         <h1 className="accerreur">{accueil}</h1>
         <h1 className="abouterreur">{about}</h1>
+        </div>
+        <div className="nbcontain">
         <h2 className="nberreur">{nb}</h2>
+        </div>
+        <div className="msgcontain">
         <h2 className="msgerreur">{msg}</h2>
+        </div>
         <h2 className="retourerreur">{retour}</h2>
     </div>
 )

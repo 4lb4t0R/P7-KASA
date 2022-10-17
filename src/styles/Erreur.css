@@ -2,6 +2,14 @@
 background: #E5E5E5;
 }
 
+.headerreur{
+position: absolute;
+width: 335px;
+height: 47px;
+left: 20px;
+top: 20px;
+}
+
 .accerreur{
 position: absolute;
 left: 58.21%;
@@ -38,6 +46,13 @@ align-items: flex-end;
 text-align: right;
 color: #FF6060;
 }
+.nbcontain{
+position: absolute;
+width: 198px;
+height: 99px;
+left: 88px;
+top: 262px;
+}
 
 .nberreur{
 position: absolute;
@@ -56,6 +71,14 @@ align-items: center;
 text-align: center;
 color: #FF6060;
 }
+
+.msgcontain{
+    height: 52px;
+    width: 260px;
+    left: 57px;
+    top: 372px;
+    border-radius: 0px;
+    }
 
 .msgerreur{
 position: absolute;
