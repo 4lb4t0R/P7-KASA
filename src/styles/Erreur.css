@@ -75,3 +75,20 @@ text-align: center;
 color: #FF6060; 
 }
 
+.retourerreur{
+position: absolute;
+left: 20.27%;
+right: 20.8%;
+top: 68.6%;
+bottom: 28.94%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 142.6%;
+/* identical to box height, or 20px */
+display: flex;
+align-items: flex-end;
+text-decoration-line: underline; 
+color: #FF6060; 
+}
