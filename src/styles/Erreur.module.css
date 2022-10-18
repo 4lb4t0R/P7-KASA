@@ -1,51 +1,6 @@
 .diverreur{
 background: #E5E5E5;
 }
-
-.headerreur{
-position: absolute;
-width: 335px;
-height: 47px;
-left: 20px;
-top: 20px;
-}
-
-.accerreur{
-position: absolute;
-left: 58.21%;
-right: 24.18%;
-top: 38.3%;
-bottom: 25.53%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
- line-height: 142.6%; 
-/* or 17px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-text-decoration-line: underline;
-color: #FF6060; 
-}
-
-.abouterreur{
-position: absolute;
-left: 78.81%;
-right: 0%;
-top: 38.3%;
-bottom: 25.53%;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 142.6%;
-/* or 17px */
-display: flex;
-align-items: flex-end;
-text-align: right;
-color: #FF6060;
-}
 .nbcontain{
 position: absolute;
 width: 198px;

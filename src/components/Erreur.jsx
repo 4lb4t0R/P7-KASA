@@ -1,15 +1,9 @@
 import '../styles/Erreur.css'
 
 function Erreur() {
-const accueil='Accueil'
-const about='À propos'
 
 return (
     <div className="diverreur">
-        <div className="headerreur">
-        <h1 className="accerreur">{accueil}</h1>
-        <h1 className="abouterreur">{about}</h1>
-        </div>
         <div className="nbcontain">
         <h2 className="nberreur">404</h2>
         </div>
