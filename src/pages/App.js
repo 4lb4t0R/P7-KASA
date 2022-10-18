@@ -1,4 +1,4 @@
-import Erreur from '../pages/Erreur'
+import Erreur from '../components/Erreur'
 
 function App() {
   return (

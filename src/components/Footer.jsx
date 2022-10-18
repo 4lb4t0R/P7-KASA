@@ -1,9 +1,9 @@
 import logo from '../assets/LOGO.png'
-import '../styles/Footer.css'
+import style from '../styles/Footer.module.css'
 
 function Footer (){
 return(
-    <div>
+    <div className={style.footinit}>
         <img src={logo} alt='Logo de la société'/>
         <p></p>
     </div>

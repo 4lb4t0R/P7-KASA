@@ -1,16 +1,14 @@
-import '../styles/Erreur.css'
+import style from '../styles/Erreur.module.css'
 
 function Erreur() {
 
 return (
-    <div className="diverreur">
-        <div className="nbcontain">
-        <h2 className="nberreur">404</h2>
+    <div className={style.diverreur}>
+        <div className={style.nbcontain}>
+        <h2 className={style.nberreur}>404</h2>
         </div>
-        <div className="msgcontain">
-        <h2 className="msgerreur">Oups! La page que vous demandez n'existe pas</h2>
-        </div>
-        <h2 className="retourerreur">Retourner sur la page d'accueil</h2>
+        <p className={style.msgerreur}>Oups! La page que vous demandez n'existe pas</p>
+        <p className={style.retourerreur}>Retourner sur la page d'accueil</p>
     </div>
 )
 }

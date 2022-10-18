@@ -1,9 +1,9 @@
 import logo from '../assets/LOGO.png'
-import '../styles/Header.css'
+import style from '../styles/Header.module.css'
 
 function Header () {
 return(
-    <div>
+    <div className={style.headinit}>
         <img src={logo} alt='Logo de la société'/>
     <nav>
         <ul>
