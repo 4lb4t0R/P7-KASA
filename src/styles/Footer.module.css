@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50%;
-  background: #e5e5e5;
+  margin-top: auto;
+  background: black;
 }
 
 .logo {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+
   width: 145px;
   height: 45px;
   filter: invert(50%) sepia(0%) saturate(750%) hue-rotate(270deg)

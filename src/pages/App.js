@@ -1,12 +1,11 @@
-/*import Erreur from '../components/Erreur'
-import Header from '../components/Header'*/
-import Footer from "../components/Footer";
+import Erreur from "../components/Erreur";
+import Layout from "./Layout";
 
 function App() {
   return (
-    <div>
-      <Footer />
-    </div>
+    <Layout>
+      <Erreur />
+    </Layout>
   );
 }
 
