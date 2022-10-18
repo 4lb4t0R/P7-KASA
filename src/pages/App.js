@@ -1,9 +1,10 @@
-import Erreur from '../components/Erreur'
+/*import Erreur from '../components/Erreur'*/
+import Header from '../components/Header'
 
 function App() {
   return (
     <div>
-      <Erreur/>
+      <Header/>
     </div>
   )
 }
