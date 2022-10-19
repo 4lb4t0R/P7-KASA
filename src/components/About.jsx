@@ -3,7 +3,7 @@ import fond from "../assets/about.png";
 
 function About() {
   return (
-    <section>
+    <section className={style.propreté}>
       <img src={fond} className={style.fond} alt="forêt apaisante" />
       <div className={style.déroulant}>
         Fiabilité

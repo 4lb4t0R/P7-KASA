@@ -1,3 +1,9 @@
+.propreté {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .déroulant {
   width: 335px;
   height: 30px;
