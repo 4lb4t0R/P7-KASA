@@ -1,12 +1,15 @@
-import Erreur from "../components/Erreur";
+/*import Erreur from "../components/Erreur";
 import Header from "..components/Header";
 
-function App() {
-  return (
-    <Header>
+<Header>
       <Erreur />
     </Header>
-  );
+*/
+
+import About from "../components/About";
+
+function App() {
+  return <About />;
 }
 
 export default App;
