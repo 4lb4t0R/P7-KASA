@@ -1,7 +1,16 @@
 .propreté {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.fond {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 345px;
+  height: 238px;
+  border-radius: 10px;
 }
 
 .déroulant {
@@ -11,12 +20,6 @@
   top: calc(50% - 30px / 2 + 223px);
   background: #ff6060;
   border-radius: 5px;
-}
-
-.fond {
-  width: 445px;
-  height: 258px;
-  border-radius: 10px;
 }
 
 .descriptif {
