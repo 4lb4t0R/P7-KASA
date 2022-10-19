@@ -1,11 +1,11 @@
 import Erreur from "../components/Erreur";
-import Layout from "./Layout";
+import Header from "..components/Header";
 
 function App() {
   return (
-    <Layout>
+    <Header>
       <Erreur />
-    </Layout>
+    </Header>
   );
 }
 
