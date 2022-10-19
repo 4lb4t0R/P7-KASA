@@ -1,9 +1,21 @@
+.déroulant {
+  width: 335px;
+  height: 30px;
+  left: calc(50% - 335px / 2);
+  top: calc(50% - 30px / 2 + 223px);
+  background: #ff6060;
+  border-radius: 5px;
+}
+
 .fond {
   width: 445px;
   height: 258px;
+  border-radius: 10px;
 }
 
 .descriptif {
+  background: #f7f7f7;
+  border-radius: 5px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
