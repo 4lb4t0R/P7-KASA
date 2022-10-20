@@ -5,6 +5,7 @@ function APropos() {
   return (
     <Layout>
       <Banner />
+
       <About />
     </Layout>
   );
