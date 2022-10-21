@@ -1,0 +1,15 @@
+.propreté {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  border-radius: 10px;
+}
+
+.mantra {
+  font-family: "Montserrat";
+  color: white;
+  z-index: 1;
+}
