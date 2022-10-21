@@ -1,14 +1,16 @@
-import Accueil from "../components/Accueil";
-import Banner from "../components/Accueil_Banner";
+import React from "react";
+import "../assets/accueil-fond.png";
 import Layout from "./Layout";
+import Banner from "../components/Accueil_Banner";
+import Card from "../components/Card";
 
-function Home() {
+const Home = () => {
   return (
     <Layout>
       <Banner />
-      <Accueil />
+      <Card />
     </Layout>
   );
-}
+};
 
 export default Home;

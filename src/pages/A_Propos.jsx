@@ -1,7 +1,8 @@
 import About from "../components/About";
 import Banner from "../components/About_Banner";
 import Layout from "./Layout";
-function APropos() {
+
+const A_Propos = () => {
   return (
     <Layout>
       <Banner />
@@ -9,6 +10,6 @@ function APropos() {
       <About />
     </Layout>
   );
-}
+};
 
-export default APropos;
+export default A_Propos;

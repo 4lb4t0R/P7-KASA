@@ -1,15 +1,54 @@
-.propreté {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .banner {
-  border-radius: 10px;
+  height: 223px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: cover;
 }
 
-.mantra {
-  font-family: "Montserrat";
+.bannerapimage {
+  background-image: url("../assets/accueil-mobile.png");
+}
+
+.hometitle {
+  font-weight: 500;
+  line-height: normal;
   color: white;
-  z-index: 1;
+  height: 133px;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 24px;
+  text-align: start;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.display {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .bannerimage {
+    background-image: url("../assets/accueil-fond.png");
+  }
+
+  .bannerapimage {
+    background-image: url("../assets/accueil-desktop.png");
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .display {
+    display: none;
+  }
+
+  .hometitle {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 48px;
+  }
 }
