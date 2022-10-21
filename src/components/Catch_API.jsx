@@ -1,36 +1,28 @@
-import style from "../styles/Accueil";
+import React from "react";
+import { useEffect } from "react";
 
-function Accueil() {
-  return (
-    <section>
-      ici le sysytème de fetch et exportation vers module page d'accueil pour
-      integration data recuperee?
-    </section>
-  );
-}
+const catch_API = () => {
+  useEffect(() => {
+    fetch(
+      `https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json`
+    ).then((response) =>
+      response
+        .json()
+        .then(({ logementData }) => console.log(logementData))
+        .catch((error) => console.log(error))
+    );
+  }, []);
+};
 
-export default Accueil;
+export default catch_API;
 
 /*
 ⚠️ : useEffect déclenche fetch
 ⚠️ : useState stock retour API dans le state
 
+1)		Call API + tableau dépendance vide (important)
 
-
-		Call API + tableau dépendance vide (important)
-
-
-useEffect(() => {
-   fetch(`http://localhost:8000/survey`)
-        .then((response) => response.json()
-        .then(({ surveyData }) => console.log(surveyData))
-        .catch((error) => console.log(error))
-    )
-}, [])
-
-
-
-		Stocker infos retournées par API
+2)		Stocker infos retournées par API
 
 function Survey() {
     const { questionNumber } = useParams()
