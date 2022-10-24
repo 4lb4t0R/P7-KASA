@@ -14,6 +14,7 @@ export default function Notation({ score }) {
   return (
     <div className="App">
       <img src={greystar} style={{ width: "25px", height: "25px" }} />
+      <img src={redstar} style={{ width: "25px", height: "25px" }} />
       <Rating
         initialValue={rating}
         onClick={handleRating}
