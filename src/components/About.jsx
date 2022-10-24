@@ -1,10 +1,9 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import style from "../styles/About.module.css";
 import vector from "../assets/Vector.svg";
-import { textsList } from "../datas/about";
 
-const Collapse = () => {
+const Collapse = ({ description, equipements = [] }) => {
+  console.log(equipements);
   const [isOpen, setIsOpen] = useState(-1);
 
   function toggleCollapse(index) {
@@ -16,10 +15,11 @@ const Collapse = () => {
   }
   return (
     <div>
-      {textsList.map((propos, index) => (
+      <p>{description}</p>
+      {equipements.map((equipement, index) => (
         <div key={index}>
           <div className={style.collapse} onClick={() => toggleCollapse(index)}>
-            <h2 className={style.collapsetext}>{propos.title}</h2>
+            <h2 className={style.collapsetext}>{equipement}</h2>
             <div>
               <img
                 src={vector}
@@ -36,9 +36,7 @@ const Collapse = () => {
             className={
               isOpen === index ? style.collapsedescription : style.displaynone
             }
-          >
-            <p>{propos.description}</p>
-          </div>
+          ></div>
         </div>
       ))}
     </div>

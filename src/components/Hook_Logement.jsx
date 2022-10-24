@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import data from "../datas/logements";
 
 export const useAppartment = () => {
@@ -10,6 +9,7 @@ export const useAppartment = () => {
   const [notValidID, setNotValidID] = useState(false);
   const [pictures, setPictures] = useState([]);
   const navigate = useNavigate();
+
   useEffect(() => {
     const fetchAppart = data.find((appart) => appart.id === id);
     if (fetchAppart) {
@@ -19,7 +19,7 @@ export const useAppartment = () => {
       setNotValidID(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     setPictures(appartment?.pictures ? appartment.pictures : []);

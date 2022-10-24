@@ -7,10 +7,10 @@ function Header() {
   return (
     <div className={style.headinit}>
       <img src={logo} className={style.logo} alt="Logo de la société" />
-      <Link className={style.choix} to="/Home">
+      <Link className={style.choix} to="/">
         Accueil
       </Link>
-      <Link className={style.choix} to="/A_Propos">
+      <Link className={style.choix} to="/è-propos">
         À propos
       </Link>
     </div>

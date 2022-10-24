@@ -11,7 +11,7 @@ function Erreur() {
       <p className={style.msgerreur}>
         Oups! La page que vous demandez n'existe pas
       </p>
-      <Link className={style.retourerreur} to="/Home">
+      <Link className={style.retourerreur} to="/">
         Retourner sur la page d'accueil
       </Link>
     </div>
