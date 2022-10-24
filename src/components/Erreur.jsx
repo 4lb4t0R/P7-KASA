@@ -1,4 +1,6 @@
 import style from "../styles/Erreur.module.css";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Erreur() {
   return (
@@ -9,7 +11,9 @@ function Erreur() {
       <p className={style.msgerreur}>
         Oups! La page que vous demandez n'existe pas
       </p>
-      <p className={style.retourerreur}>Retourner sur la page d'accueil</p>
+      <Link className={style.retourerreur} to="/Home">
+        Retourner sur la page d'accueil
+      </Link>
     </div>
   );
 }
