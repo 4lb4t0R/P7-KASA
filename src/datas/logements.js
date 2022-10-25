@@ -1,4 +1,4 @@
-export const logementsData = [
+const logementsData = [
   {
     id: "c67ab8a7",
     title: "Appartement cosy",
@@ -579,3 +579,5 @@ export const logementsData = [
     tags: ["Louvre", "Marais", "Rivoli"],
   },
 ];
+
+export default logementsData;

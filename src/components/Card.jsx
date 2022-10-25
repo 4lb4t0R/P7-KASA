@@ -1,6 +1,6 @@
 import React from "react";
-import style from "../styles/card.module.css";
-import { logementsData } from "../datas/logements";
+import style from "../styles/Card.module.css";
+import logementsData from "../datas/logements";
 import { Link } from "react-router-dom";
 
 const Card = () => {

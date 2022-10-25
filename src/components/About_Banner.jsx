@@ -1,4 +1,4 @@
-import image from "../assets/about-mobile";
+import image from "../assets/about-mobile.png";
 
 function A_Banner() {
   return (

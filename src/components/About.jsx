@@ -26,7 +26,7 @@ const Collapse = ({ description, equipements = [] }) => {
                 alt="flèche"
                 className={
                   isOpen === index
-                    ? style.collapsearrow && style.collapsearrowturn
+                    ? style.collapsearrow.collapsearrowturn
                     : style.collapsearrow
                 }
               />
